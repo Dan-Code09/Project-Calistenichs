@@ -75,11 +75,12 @@ nav ul{
 }
 
 .frame:hover{
-   animation-duration: 1.5s;
-   animation-direction: alternate;
-   margin: 5px;
-   padding: 2px;
-   color: gold;
+
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    margin: 5px;
+    padding: 2px;
+    color: gold;
 
 }
 
