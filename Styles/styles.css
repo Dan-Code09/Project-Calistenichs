@@ -1,6 +1,7 @@
 *{
     margin: auto;
     padding: 0px;
+    
 }
     
 
@@ -65,7 +66,7 @@ nav ul{
 .frame img{
     max-width: 190px;
     max-height: 190px;
-    border-radius: 60px;
+    border-radius: 20px;
     background-color: gray;
 }
 
