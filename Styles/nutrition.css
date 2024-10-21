@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(88, 81, 129);
+    background-color: rgb(46, 42, 42);
     position: relative;
     margin: 0;
     padding: 0;
@@ -25,7 +25,6 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 200%;
     text-align: center;
-    background-color: black;
     border-radius: 80px;
 }
 
@@ -79,19 +78,4 @@ header{
     font-size: 20px;
     font-style: italic;
 }
-
-/*Imagen de fondo del contenido*/
-
-.Fondo{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
-
 

@@ -1,61 +1,71 @@
-body{
+*{
+    text-decoration: none;
+    display: inline-flexbox;
+    margin: 5px;
+    padding: 0;
+    background-color: gray;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h1{
     text-align: center;
-    font-size: 50px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 50px;
 }
 
-.Fondo{
-   text-align: center;
-   margin: 5px 5px;
-   padding: 10px;
-   grid-template-columns: auto;
-   justify-content: center;
+/*Fotos y columnas*/
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
 }
 
-.Fondo img{
-    width: 225px;
-    height: 225px;
+.frame img{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.pic-text{
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    text-transform: uppercase;
 }
 
 .leyendas{
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
     text-align: center;
-    grid-template-columns: auto auto auto;
-    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: auto;
 }
 
-button ul{
-    
+/*Links*/
+
+nav ul{
     text-align: center;
-    display: contents;
-}
-
-button:hover{
-    border-radius: 20px;
-    background-color: rgb(208, 223, 215);
-    color: rgb(143, 143, 143);
-}
-
-nav a{
-    display: contents;
-    margin: 20px;
-    padding: 10px;
-    font-size: 20px;
-    color: black;
-    
+    align-items: center;
+    background-color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 nav ul a{
-    display: flexbox;
-    color: black;
+    margin: 10px;
+    font-size: 25px;
+    font-style: normal;
 }
 
 nav ul a:hover{
+    margin: 10px;
+    padding: 5px;
     text-transform: uppercase;
-}
-
-nav a:hover{
-    text-transform: uppercase;
+    color: gold;
 }
